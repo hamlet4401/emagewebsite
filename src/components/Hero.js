@@ -29,8 +29,9 @@ const Hero = () => {
                 Bespoke software solutions for your unique business needs
               </h1>
               <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">
-                We are a team of highly motivated and skilled developers
-                dedicated to delivering only the best software.
+                Our team of highly motivated and skilled developers is dedicated
+                to delivering nothing short of excellence in what feels like
+                magic
               </div>
               <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                 <Link

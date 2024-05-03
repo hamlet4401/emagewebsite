@@ -6,6 +6,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // All pages
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+import SoftwareDevelopment from "./pages/SoftwareDevelopment";
+import WebDevelopment from "./pages/WebDevelopment";
+import DomainHosting from "./pages/DomainHosting";
+import Portfolio from "./components/Portfolio";
 
 import { useDocTitle } from "./components/CustomHook";
 import ScrollToTop from "./components/ScrollToTop";
@@ -25,7 +29,7 @@ function App() {
     });
   }, []);
 
-  useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
+  useDocTitle("E-mage | Bespoke tech solutions");
 
   return (
     <>
@@ -34,6 +38,13 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route
+              path="/softwaredevelopment"
+              element={<SoftwareDevelopment />}
+            />
+            <Route path="/domainHosting" element={<DomainHosting />} />
+            <Route path="/webdevelopment" element={<WebDevelopment />} />
           </Routes>
         </ScrollToTop>
       </Router>
