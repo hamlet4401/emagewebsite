@@ -102,7 +102,7 @@ const Services = () => {
                   src={img4}
                 />
                 <h2 className="font-semibold my-4 text-2xl text-center ">
-                  Tailored IT Solutions
+                  Support and Troubleshooting
                 </h2>
                 <p className="text-md font-medium">
                   Unlock the full potential of your technology infrastructure
