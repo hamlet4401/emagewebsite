@@ -21,7 +21,7 @@ const Contact = () => {
                 <i className="fas fa-map-marker-alt pt-2 pr-2" />
               </div>
               <div className="flex flex-col">
-                <h2 className="text-2xl">Office Address</h2>
+                <h2 className="text-2xl">Office address</h2>
                 <p className="text-gray-400">
                   Brigade Pironlaan 5A<br></br> 8400 Oostende<br></br> Belgium
                 </p>
@@ -34,11 +34,11 @@ const Contact = () => {
               </div>
 
               <div className="flex flex-col">
-                <h2 className="text-2xl">Call Us</h2>
-                <p className="text-gray-400">Tel: +324 86 11 62 04</p>
+                <h2 className="text-2xl">Call us</h2>
+                <p className="text-gray-400">Tel: +32 486 11 62 04</p>
 
                 <div className="mt-5">
-                  <h2 className="text-2xl">Send an E-mail</h2>
+                  <h2 className="text-2xl">Send an e-mail</h2>
                   <p className="text-gray-400">hamlet@e-mage.be</p>
                 </div>
               </div>

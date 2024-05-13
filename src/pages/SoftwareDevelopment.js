@@ -6,6 +6,9 @@ import NavBar from "../components/Navbar/NavBar";
 import Footer from "../components/Footer";
 
 import img from "../images/web.svg";
+import img2 from "../images/embedded systems.jpg";
+import img3 from "../images/automation.jpg";
+import img4 from "../images/app development.jpg";
 
 const SoftwareDevelopment = () => {
   return (
@@ -20,7 +23,7 @@ const SoftwareDevelopment = () => {
             <img
               alt="card img"
               className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-              src={img}
+              src={img4}
             />
           </div>
         }
@@ -39,7 +42,7 @@ const SoftwareDevelopment = () => {
             <img
               alt="card img"
               className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-              src={img}
+              src={img2}
             />
           </div>
         }
@@ -58,7 +61,7 @@ const SoftwareDevelopment = () => {
             <img
               alt="card img"
               className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-              src={img}
+              src={img3}
             />
           </div>
         }
