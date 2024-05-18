@@ -32,23 +32,17 @@ function App() {
   useDocTitle("E-mage | Bespoke tech solutions");
 
   return (
-    <>
-      <Router>
-        <ScrollToTop>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route
-              path="/softwaredevelopment"
-              element={<SoftwareDevelopment />}
-            />
-            <Route path="/domainHosting" element={<DomainHosting />} />
-            <Route path="/webdevelopment" element={<WebDevelopment />} />
-          </Routes>
-        </ScrollToTop>
-      </Router>
-    </>
+    <Router>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/softwaredevelopment" element={<SoftwareDevelopment />} />
+        <Route path="/domainHosting" element={<DomainHosting />} />
+        <Route path="/webdevelopment" element={<WebDevelopment />} />
+      </Routes>
+    </Router>
   );
 }
 
