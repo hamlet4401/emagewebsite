@@ -11,7 +11,6 @@ const EmageLogo = () => {
       className="size-full"
     >
       <g class="layer">
-        <title>Layer 1</title>
         <g fill-rule="nonzero" id="document" />
         <g fill-rule="nonzero" id="svg_5">
           <g id="stage">
