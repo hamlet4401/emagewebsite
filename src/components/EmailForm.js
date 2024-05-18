@@ -110,7 +110,7 @@ const EmailForm = () => {
               name="email"
               className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="email"
-              placeholder="Email*"
+              placeholder="E-mail*"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               onKeyUp={clearErrors}
