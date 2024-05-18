@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import fullStack from "../images/Full stack.svg";
 import frontEnd from "../images/Front end3.svg";
 import backEnd from "../images/back end.svg";
+import uiUx from "../images/UI UX.svg";
 
 const WebDevelopment = () => {
   return (
@@ -91,7 +92,7 @@ const WebDevelopment = () => {
             <img
               alt="card img"
               className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-              src={fullStack}
+              src={uiUx}
             />
           </div>
         }
