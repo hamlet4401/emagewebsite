@@ -5,7 +5,9 @@ import ServiceCard from "../components/ServiceCard";
 import NavBar from "../components/Navbar/NavBar";
 import Footer from "../components/Footer";
 
-import img from "../images/web.svg";
+import fullStack from "../images/Full stack.svg";
+import frontEnd from "../images/Front end3.svg";
+import backEnd from "../images/back end.svg";
 
 const WebDevelopment = () => {
   return (
@@ -20,7 +22,7 @@ const WebDevelopment = () => {
             <img
               alt="card img"
               className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-              src={img}
+              src={fullStack}
             />
           </div>
         }
@@ -43,7 +45,7 @@ const WebDevelopment = () => {
             <img
               alt="card img"
               className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-              src={img}
+              src={frontEnd}
             />
           </div>
         }
@@ -66,7 +68,7 @@ const WebDevelopment = () => {
             <img
               alt="card img"
               className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-              src={img}
+              src={backEnd}
             />
           </div>
         }
@@ -89,7 +91,7 @@ const WebDevelopment = () => {
             <img
               alt="card img"
               className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-              src={img}
+              src={fullStack}
             />
           </div>
         }
