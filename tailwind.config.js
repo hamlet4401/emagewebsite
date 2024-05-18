@@ -10,7 +10,7 @@ module.exports = {
         frontend: "url('/src/images/Front end3.svg')",
         backend: "url('/src/images/back end.svg')",
         uiUx: "url('/src/images/UI UX.svg')",
-        noOverpay: "url('/src/images/Don't overpay.png')",
+        noOverpay: "url('/src/images/noOverpay.png')",
         noWorries: "url('/src/images/No worries.png')",
       },
     },
