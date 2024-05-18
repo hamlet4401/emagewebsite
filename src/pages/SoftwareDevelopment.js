@@ -5,11 +5,6 @@ import ServiceCard from "../components/ServiceCard";
 import NavBar from "../components/Navbar/NavBar";
 import Footer from "../components/Footer";
 
-import img from "../images/web.svg";
-import img2 from "../images/embedded systems.jpg";
-import img3 from "../images/automation.jpg";
-import img4 from "../images/app development.jpg";
-
 const SoftwareDevelopment = () => {
   return (
     <>
@@ -19,13 +14,7 @@ const SoftwareDevelopment = () => {
       <InfoCard
         mirrored={false}
         mainCard={
-          <div className="w-full flex justify-center bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
-            <img
-              alt="card img"
-              className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-              src={img4}
-            />
-          </div>
+          <div className="bg-cover bg-center h-[500px] bg-appDevelopment p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl"></div>
         }
         extraCard={
           <ServiceCard
@@ -38,13 +27,7 @@ const SoftwareDevelopment = () => {
       <InfoCard
         mirrored={true}
         mainCard={
-          <div className="w-full flex justify-center bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
-            <img
-              alt="card img"
-              className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-              src={img2}
-            />
-          </div>
+          <div className="bg-cover bg-center h-[500px] bg-embeddedSystems p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl"></div>
         }
         extraCard={
           <ServiceCard
@@ -57,13 +40,7 @@ const SoftwareDevelopment = () => {
       <InfoCard
         mirrored={false}
         mainCard={
-          <div className="w-full flex justify-center bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
-            <img
-              alt="card img"
-              className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-              src={img3}
-            />
-          </div>
+          <div className="bg-cover bg-center h-[500px] bg-automations p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl"></div>
         }
         extraCard={
           <ServiceCard

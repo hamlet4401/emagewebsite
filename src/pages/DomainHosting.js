@@ -5,9 +5,6 @@ import ServiceCard from "../components/ServiceCard";
 import NavBar from "../components/Navbar/NavBar";
 import Footer from "../components/Footer";
 
-import noOverpay from "../images/Don't overpay.png";
-import noWorries from "../images/No worries.png";
-
 const DomainHosting = () => {
   return (
     <>
@@ -17,13 +14,7 @@ const DomainHosting = () => {
       <InfoCard
         mirrored={false}
         mainCard={
-          <div className="w-full flex justify-center bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
-            <img
-              alt="card img"
-              className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-              src={noWorries}
-            />
-          </div>
+          <div className="bg-cover bg-center h-[500px] bg-noWorries p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl"></div>
         }
         extraCard={
           <ServiceCard
@@ -40,13 +31,7 @@ const DomainHosting = () => {
       <InfoCard
         mirrored={true}
         mainCard={
-          <div className="w-full flex justify-center bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
-            <img
-              alt="card img"
-              className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-              src={noOverpay}
-            />
-          </div>
+          <div className="bg-cover bg-center h-[500px] bg-noOverpay p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl"></div>
         }
         extraCard={
           <ServiceCard
