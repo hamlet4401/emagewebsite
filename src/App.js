@@ -9,7 +9,6 @@ import Contact from "./pages/Contact";
 import SoftwareDevelopment from "./pages/SoftwareDevelopment";
 import WebDevelopment from "./pages/WebDevelopment";
 import DomainHosting from "./pages/DomainHosting";
-import Portfolio from "./components/Portfolio";
 
 import { useDocTitle } from "./components/CustomHook";
 import ScrollToTop from "./components/ScrollToTop";
@@ -37,7 +36,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/softwaredevelopment" element={<SoftwareDevelopment />} />
         <Route path="/domainHosting" element={<DomainHosting />} />
         <Route path="/webdevelopment" element={<WebDevelopment />} />
