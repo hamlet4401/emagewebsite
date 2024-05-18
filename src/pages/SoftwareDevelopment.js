@@ -30,7 +30,7 @@ const SoftwareDevelopment = () => {
         extraCard={
           <ServiceCard
             title="App Development"
-            description="Transform your ideas into reality with our cutting-edge custom software development services. Whether you need a web application, mobile app, or enterprise solution, our team of experts is dedicated to delivering tailored solutions that exceed your expectations."
+            description="Our team excels in crafting mobile apps tailored to your needs. Leveraging Swift, Objective-C, Java, and .NET, we deliver top-tier solutions. Swift powers our sleek iOS apps, ensuring seamless experiences. With Objective-C, we guarantee compatibility and performance in iOS and macOS projects. Java enables versatile Android apps, scalable across devices. Utilizing .NET, we build robust cross-platform solutions. Whether launching or enhancing apps, we innovate to drive your business forward."
             bulletPoints={["Swift", "Objective C", "Java", ".NET"]}
           ></ServiceCard>
         }
@@ -49,7 +49,7 @@ const SoftwareDevelopment = () => {
         extraCard={
           <ServiceCard
             title="Embedded Systems"
-            description="Transform your ideas into reality with our cutting-edge custom software development services. Whether you need a web application, mobile app, or enterprise solution, our team of experts is dedicated to delivering tailored solutions that exceed your expectations."
+            description="Specializing in embedded systems development, we utilize C/C++ to create efficient and reliable solutions. Expertise in C/C++ enables us to design firmware and software for embedded devices, ensuring optimal performance and functionality. From microcontrollers to IoT devices, our customized solutions are tailored to your specific requirements."
             bulletPoints={["C/C++"]}
           ></ServiceCard>
         }
@@ -68,7 +68,7 @@ const SoftwareDevelopment = () => {
         extraCard={
           <ServiceCard
             title="Automations"
-            description="Transform your ideas into reality with our cutting-edge custom software development services. Whether you need a web application, mobile app, or enterprise solution, our team of experts is dedicated to delivering tailored solutions that exceed your expectations."
+            description="Empowering businesses with streamlined processes, we specialize in automations driven by Python and API integrations. Utilizing the versatility of Python, we develop robust scripts and applications tailored to automate repetitive tasks and optimize workflows. Through seamless API integrations, we connect disparate systems, enabling data exchange and enhancing operational efficiency. From data processing to workflow automation, our solutions are designed to simplify complexities and drive productivity."
             bulletPoints={["Python", "API Integrations"]}
           ></ServiceCard>
         }
