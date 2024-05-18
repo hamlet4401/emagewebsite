@@ -5,7 +5,8 @@ import ServiceCard from "../components/ServiceCard";
 import NavBar from "../components/Navbar/NavBar";
 import Footer from "../components/Footer";
 
-import img from "../images/web.svg";
+import noOverpay from "../images/Don't overpay.png";
+import noWorries from "../images/No worries.png";
 
 const DomainHosting = () => {
   return (
@@ -20,7 +21,7 @@ const DomainHosting = () => {
             <img
               alt="card img"
               className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-              src={img}
+              src={noWorries}
             />
           </div>
         }
@@ -43,7 +44,7 @@ const DomainHosting = () => {
             <img
               alt="card img"
               className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out"
-              src={img}
+              src={noOverpay}
             />
           </div>
         }
