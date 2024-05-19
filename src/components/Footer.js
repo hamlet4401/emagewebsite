@@ -45,7 +45,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-2">
                   <HashLink
-                    to="/contact"
+                    to="/contact#contact"
                     className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
                   >
                     Contact

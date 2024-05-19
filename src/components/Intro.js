@@ -38,7 +38,7 @@ const Intro = () => {
               </p>
             </div>
             <Link
-              to="/contact"
+              to="/contact#contact"
               className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group"
             >
               Contact us
