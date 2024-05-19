@@ -122,7 +122,7 @@ const Services = () => {
             className="flex flex-col-reverse lg:flex-row py-8 justify-between lg:text-left"
             data-aos="zoom-out"
           >
-            <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
+            <div className="lg:w-1/2 flex flex-col mx-4 justify-center">
               <div className="text-blue-900 mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -151,7 +151,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="lg:w-1/2 flex flex-col lg:mx-4 justify-center">
+            <div className="lg:w-1/2 flex flex-col mx-4 justify-center">
               <div className="text-blue-900 mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
