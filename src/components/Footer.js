@@ -62,23 +62,23 @@ const Footer = () => {
               <ul className="text-md">
                 <li className="mb-2">
                   <Link
-                    to="#"
+                    to="/softwaredevelopment"
                     className="text-[#013289] hover:text-gray-900 hover:scale-105 transform-gpu transition-transform duration-250 ease-in-out inline-block"
                   >
-                    Web Development
+                    Software Development
                   </Link>
                 </li>
                 <li className="mb-2">
                   <Link
-                    to="#"
+                    to="/webdevelopment"
                     className="text-[#013289] hover:text-gray-900 hover:scale-105 transform-gpu transition-transform duration-250 ease-in-out inline-block"
                   >
-                    Mobile App Development
+                    Web Development and Design
                   </Link>
                 </li>
                 <li className="mb-2">
                   <Link
-                    to="#"
+                    to="/domainhosting"
                     className="text-[#013289] hover:text-gray-900 hover:scale-105 transform-gpu transition-transform duration-250 ease-in-out inline-block"
                   >
                     Domain and Hosting
@@ -86,7 +86,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-2">
                   <Link
-                    to="#"
+                    to="/contact#contact"
                     className="text-[#013289] hover:text-gray-900 hover:scale-105 transform-gpu transition-transform duration-250 ease-in-out inline-block"
                   >
                     Support and Troubleshooting
