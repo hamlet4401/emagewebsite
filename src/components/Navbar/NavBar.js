@@ -2,8 +2,10 @@ import React, { useState, useEffect } from "react";
 import NavLinks from "../Navbar/NavLinks";
 import { HashLink } from "react-router-hash-link";
 import { default as EmageLogo } from "../../images/EmageLogo";
+import { useLocation } from "react-router-dom";
 
 const NavBar = () => {
+  const location = useLocation();
   const [top, setTop] = useState(!window.scrollY);
   const [isOpen, setisOpen] = React.useState(false);
   function handleClick() {
@@ -18,6 +20,12 @@ const NavBar = () => {
     return () => window.removeEventListener("scroll", scrollHandler);
   }, [top]);
 
+  const handleLogoClick = () => {
+    if (location.pathname === "/") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
+
   return (
     <nav
       className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${
@@ -25,8 +33,8 @@ const NavBar = () => {
       }`}
     >
       <div className="flex flex-row justify-between items-center py-2">
-        <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
-          <HashLink smooth to="/#hero">
+        <div className="flex flex-row justify-center ml-6 items-center text-center font-semibold">
+          <HashLink smooth to="/" onClick={handleLogoClick}>
             <div className="text-blue-900 w-72 h-16">
               <EmageLogo></EmageLogo>
             </div>
