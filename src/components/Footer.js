@@ -30,7 +30,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <HashLink
                     to="/#about"
-                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+                    className="text-[#013289] hover:text-gray-900 hover:scale-105 transform-gpu transition-transform duration-250 ease-in-out inline-block"
                   >
                     About
                   </HashLink>
@@ -38,7 +38,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <HashLink
                     to="/#services"
-                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+                    className="text-[#013289] hover:text-gray-900 hover:scale-105 transform-gpu transition-transform duration-250 ease-in-out inline-block"
                   >
                     Services
                   </HashLink>
@@ -46,7 +46,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <HashLink
                     to="/contact#contact"
-                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+                    className="text-[#013289] hover:text-gray-900 hover:scale-105 transform-gpu transition-transform duration-250 ease-in-out inline-block"
                   >
                     Contact
                   </HashLink>
@@ -63,7 +63,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+                    className="text-[#013289] hover:text-gray-900 hover:scale-105 transform-gpu transition-transform duration-250 ease-in-out inline-block"
                   >
                     Web Development
                   </Link>
@@ -71,7 +71,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+                    className="text-[#013289] hover:text-gray-900 hover:scale-105 transform-gpu transition-transform duration-250 ease-in-out inline-block"
                   >
                     Mobile App Development
                   </Link>
@@ -79,7 +79,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+                    className="text-[#013289] hover:text-gray-900 hover:scale-105 transform-gpu transition-transform duration-250 ease-in-out inline-block"
                   >
                     Domain and Hosting
                   </Link>
@@ -87,7 +87,7 @@ const Footer = () => {
                 <li className="mb-2">
                   <Link
                     to="#"
-                    className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out"
+                    className="text-[#013289] hover:text-gray-900 hover:scale-105 transform-gpu transition-transform duration-250 ease-in-out inline-block"
                   >
                     Support and Troubleshooting
                   </Link>
