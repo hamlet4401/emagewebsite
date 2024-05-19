@@ -20,9 +20,11 @@ const NavBar = () => {
     return () => window.removeEventListener("scroll", scrollHandler);
   }, [top]);
 
-  const handleLogoClick = () => {
+  const handleLogoClick = (event) => {
     if (location.pathname === "/") {
+      event.preventDefault();
       window.scrollTo({ top: 0, behavior: "smooth" });
+      window.history.pushState(null, "", "/");
     }
   };
 
