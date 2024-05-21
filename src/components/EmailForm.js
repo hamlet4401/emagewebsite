@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import axios from "axios";
-// import emailjs from 'emailjs-com';
-import Notiflix from "notiflix";
+import emailjs from "emailjs-com";
 
 const EmailForm = () => {
   const [firstName, setFirstName] = useState("");
@@ -27,44 +25,18 @@ const EmailForm = () => {
     e.preventDefault();
     document.getElementById("submitBtn").disabled = true;
     document.getElementById("submitBtn").innerHTML = "Loading...";
-    let fData = new FormData();
-    fData.append("first_name", firstName);
-    fData.append("last_name", lastName);
-    fData.append("email", email);
-    fData.append("phone_number", phone);
-    fData.append("message", message);
-
-    axios({
-      method: "post",
-      url: process.env.REACT_APP_CONTACT_API,
-      data: fData,
-      headers: {
-        "Content-Type": "multipart/form-data",
-      },
-    })
-      .then(function (response) {
-        document.getElementById("submitBtn").disabled = false;
-        document.getElementById("submitBtn").innerHTML = "send message";
-        clearInput();
-        //handle success
-        Notiflix.Report.success("Success", response.data.message, "Okay");
-      })
-      .catch(function (error) {
-        document.getElementById("submitBtn").disabled = false;
-        document.getElementById("submitBtn").innerHTML = "send message";
-        //handle error
-        const { response } = error;
-        if (response.status === 500) {
-          Notiflix.Report.failure(
-            "An error occurred",
-            response.data.message,
-            "Okay"
-          );
+    emailjs
+      .sendForm("e-mageZoho", "template_r4frycg", e.target, "8KVosbpt-H3YzOUR2")
+      .then(
+        (result) => {
+          console.log(result.text);
+          clearErrors();
+          clearInput();
+        },
+        (error) => {
+          console.log(error.text);
         }
-        if (response.data.errors !== null) {
-          setErrors(response.data.errors);
-        }
-      });
+      );
   };
   return (
     <form onSubmit={sendEmail} className="w-full">
