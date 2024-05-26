@@ -20,8 +20,7 @@ const SoftwareDevelopment = () => {
           extraCard={
             <ServiceCard
               title="App Development"
-              description="Our team excels in crafting mobile apps tailored to your needs. Leveraging Swift, Objective-C, Java, and .NET, we deliver top-tier solutions. Swift powers our sleek iOS apps, ensuring seamless experiences. With Objective-C, we guarantee compatibility and performance in iOS and macOS projects. Java enables versatile Android apps, scalable across devices. Utilizing .NET, we build robust cross-platform solutions. Whether launching or enhancing apps, we innovate to drive your business forward."
-              bulletPoints={["Swift", "Objective C", "Java", ".NET"]}
+              description="At E-mage, we transform your ideas into exceptional mobile applications for any platform. Our expert team delivers high-quality, user-friendly apps tailored to your specific business needs. "
             ></ServiceCard>
           }
         ></InfoCard>
@@ -33,8 +32,7 @@ const SoftwareDevelopment = () => {
           extraCard={
             <ServiceCard
               title="Embedded Systems"
-              description="Specializing in embedded systems development, we utilize C/C++ to create efficient and reliable solutions. Expertise in C/C++ enables us to design firmware and software for embedded devices, ensuring optimal performance and functionality. From microcontrollers to IoT devices, our customized solutions are tailored to your specific requirements."
-              bulletPoints={["C/C++"]}
+              description="Embedded systems are specialized computing systems designed for dedicated functions within larger systems. We design firmware and software to optimize performance for microcontrollers and IoT devices, meeting your unique requirements."
             ></ServiceCard>
           }
         ></InfoCard>
@@ -46,8 +44,7 @@ const SoftwareDevelopment = () => {
           extraCard={
             <ServiceCard
               title="Automations"
-              description="Empowering businesses with streamlined processes, we specialize in automations driven by Python and API integrations. Utilizing the versatility of Python, we develop robust scripts and applications tailored to automate repetitive tasks and optimize workflows. Through seamless API integrations, we connect disparate systems, enabling data exchange and enhancing operational efficiency. From data processing to workflow automation, our solutions are designed to simplify complexities and drive productivity."
-              bulletPoints={["Python", "API Integrations"]}
+              description="Empowering businesses with streamlined processes, we specialize in automations tailored to optimize workflows and drive productivity. Our solutions simplify complexities and automate repetitive tasks, enhancing operational efficiency from data processing to workflow management."
             ></ServiceCard>
           }
         ></InfoCard>

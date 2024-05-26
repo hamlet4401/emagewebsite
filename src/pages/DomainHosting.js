@@ -20,12 +20,7 @@ const DomainHosting = () => {
           extraCard={
             <ServiceCard
               title="No worries"
-              description="Transform your ideas into reality with our cutting-edge custom software development services. Whether you need a web application, mobile app, or enterprise solution, our team of experts is dedicated to delivering tailored solutions that exceed your expectations."
-              bulletPoints={[
-                "Custom software development",
-                "Web and mobile app development",
-                "Enterprise solutions",
-              ]}
+              description="Relax and leave the technicalities to us. With our expertise, your project is in capable hands, allowing you to focus on what matters most to you."
             ></ServiceCard>
           }
         ></InfoCard>
@@ -37,12 +32,7 @@ const DomainHosting = () => {
           extraCard={
             <ServiceCard
               title="Don't overpay"
-              description="Transform your ideas into reality with our cutting-edge custom software development services. Whether you need a web application, mobile app, or enterprise solution, our team of experts is dedicated to delivering tailored solutions that exceed your expectations."
-              bulletPoints={[
-                "Custom software development",
-                "Web and mobile app development",
-                "Enterprise solutions",
-              ]}
+              description="Rest assured, we prioritize efficiency and cost-effectiveness in our solutions. With us, you get top-notch quality without breaking the bank, ensuring you never overpay for excellence."
             ></ServiceCard>
           }
         ></InfoCard>
